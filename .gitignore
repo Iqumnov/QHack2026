@@ -1,0 +1,21 @@
+# Ignore all root scripts and automation tools
+/*.py
+/scratch/
+.system_generated/
+.tempmediaStorage/
+.user_uploaded/
+solutions_summary.md
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# IDE & OS files
+.vscode/
+.idea/
+.gemini/
+.DS_Store
+Thumbs.db
